@@ -1,0 +1,20 @@
+body{
+  background:#020617;
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+.breadcrumb span{
+  cursor:pointer;
+  color:#94a3b8;
+}
+
+.breadcrumb span.active{
+  color:#22c55e;
+  font-weight:bold;
+}
